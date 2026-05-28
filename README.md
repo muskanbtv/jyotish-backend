@@ -66,7 +66,7 @@ Health check.
 ```javascript
 const rzp = new Razorpay({
   key: 'rzp_live_xxx',
-  amount: 29900, // paise
+  amount: 9900, // paise
   currency: 'INR',
   name: 'Jyotish Dasha Reading',
   handler: async (response) => {
