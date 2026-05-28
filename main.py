@@ -22,7 +22,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-swe.set_ephe_path('/usr/share/ephe')
+swe.set_ephe_path('')  # Use built-in Moshier ephemeris — no external files needed
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 
